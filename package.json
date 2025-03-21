@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Scaffold for a new TypeScript project.",
   "author": "Bison Hubert",
+  "license": "MIT",
   "scripts": {
     "build:clean": "tsc --build --clean",
     "lint": "eslint src/**/*.ts*",
