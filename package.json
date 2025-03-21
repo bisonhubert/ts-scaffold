@@ -1,0 +1,17 @@
+{
+  "name": "ts-scaffold",
+  "version": "0.0.0",
+  "description": "Scaffold for a new TypeScript project.",
+  "author": "Bison Hubert",
+  "scripts": {
+    "build:clean": "tsc --build --clean",
+    "lint": "eslint src/**/*.ts*",
+    "lint:fix": "eslint --fix src/**/*.ts*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.27.0"
+  }
+}
